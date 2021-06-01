@@ -1,0 +1,10 @@
+Discord Crypto Price Bot
+==========================
+
+- Program scrapes current price of a crypto currency 
+- User asks bot to get price of selected crypto
+
+	i.e. "!Hey Bot Get Bitcoin Price"
+	     "*The Price is: $37,005.40*"
+
+		
