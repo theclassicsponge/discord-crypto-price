@@ -26,8 +26,14 @@ async def on_message(message):
         if user_message.lower() == 'what is the price of bitcoin':
             await message.channel.send(f'I dunno {username}.')
             return
+        elif user_message.lower() == 'what is the price of ethereum':
+            await message.channel.send(f'I dunno {username}.')
+            return
         elif user_message.lower() == 'bye':
             await message.channel.send(f'Goodbye {username}.')
             return
+
+
+
 
 client.run(TOKEN)
